@@ -1,0 +1,43 @@
+<idea-plugin>
+    <id>com.github.igrmk</id>
+    <name>Helsing</name>
+    <version>3.9</version>
+    <vendor email="igrmkx@gmail.com" url="http://github.com/igrmk">igrmk</vendor>
+
+    <description>
+        <![CDATA[
+            Dark color theme for working under the sunlight.
+            It is designed to be visible even in enormously bright environment.
+            Here are some tips for working on plain air.
+            <ol>
+                <li>
+                    Wear dark.
+                    Your screen will reflect your bright clothes.
+                    Even a matte display won't help if the sun will be shining on your white T-shirt.
+                </li>
+                <li>
+                    Try to find a shadow.
+                    But try to not use trees.
+                    A lot of trees produce tiny drops of a resin.
+                    They are hard to clean from your screen.
+                </li>
+                <li>Set the brightness level to the maximum.</li>
+                <li>
+                    Have a cleaning cloth with you.
+                    A dust is very distracting in the sun.
+                </li>
+            </ol>
+        ]]>
+    </description>
+
+    <change-notes>Hover colors made more consistent</change-notes>
+
+    <idea-version since-build="191.0"/>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="723d5afc-7378-4a6b-adc4-687dc34bc43b" path="/Helsing.theme.json"/>
+    </extensions>
+</idea-plugin>

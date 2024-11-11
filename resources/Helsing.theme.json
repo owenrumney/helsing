@@ -1,0 +1,31 @@
+{
+  "name": "Helsing",
+  "dark": true,
+  "author": "igrmk",
+  "editorScheme": "/Helsing.xml",
+  "ui": {
+    "*": {
+      "foreground": "#ffffff",
+      "background": "#252525",
+      "selectionForeground": "#ffffff",
+      "selectionBackground": "#6165ad",
+      "selectionInactiveBackground": "#252525",
+      "infoForeground": "#c0c0c0",
+      "disabledForeground": "#c0c0c0",
+      "inactiveForeground": "#c0c0c0",
+      "inactiveBackground": "#252525",
+      "matchForeground": "#ffffff",
+      "hoverBackground": "#4a4d51"
+    },
+    "MainWindow": {
+      "Tab": {
+        "foreground": "#ffffff",
+        "background": "#252525",
+        "selectedForeground": "#ffffff",
+        "selectedBackground": "#252525",
+        "selectedInactiveBackground": "#252525",
+        "borderColor": "#252525"
+      }
+    }
+  }
+}
